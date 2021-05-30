@@ -28,3 +28,11 @@ class CollectionMV(db.Model):
 
     def get_all():
         return CollectionMV.query.all()
+
+    def check(pk):
+        data = CollectionMV.query.filter_by(id=pk).first()
+        if data is None:
+            return False
+        data.is_exist = False if data.is_exist is True else True
+        db.session.commit()
+        return True

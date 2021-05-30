@@ -11,8 +11,13 @@ class CollectionApi():
         result = []
         for item in data:
             result.append(
-                {'id': item.id, 'title': item.title, 'image': item.image, 'is_exist': item.is_exist})
+                {'id': item.id, 'title': item.title, 'image': item.image,
+                 'path_image': item.path_image,
+                 'is_exist': item.is_exist})
         return result
+
+    def check_exist(pk):
+        return CollectionMV.check(pk)
 
 
 class ScrapWeb():
