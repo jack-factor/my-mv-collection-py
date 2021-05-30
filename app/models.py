@@ -27,7 +27,7 @@ class CollectionMV(db.Model):
         return False
 
     def get_all():
-        return CollectionMV.query.all()
+        return CollectionMV.query.limit(60).all()
 
     def check(pk):
         data = CollectionMV.query.filter_by(id=pk).first()
