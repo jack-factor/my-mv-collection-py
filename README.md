@@ -44,6 +44,9 @@ Inicio
   `source venv/bin/activate`
 3. Instalar requerimientos:
   `pip install -r requirements.txt`  
+4. Crear el archivo .env y pegar las siguientes variables:  
+  `SOURCE_WEB=https://coleccionablesblog.com.ar/la-coleccion-definitiva-de-novelas-graficas-de-marvel/` 
+  `APP_SETTINGS=app.config.DevelopmentConfig`
 4. Ejcutar:
   `python run.py`  
 5. Para ejecutar el scrap. Abri el siguiente enlace [http://127.0.0.1:5010/scrap](http://127.0.0.1:5010/scrap).
