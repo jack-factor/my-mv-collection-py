@@ -14,6 +14,9 @@ Esta parte esta desarrollada utilizando [Flask](https://flask.palletsprojects.co
 El objetivo de la aplicación es tener un pequeño checklist o control de seguimiento.
 En este caso en particular estamos tomando como ejemplo [**"La colección definitiva de novelas gráficas de Marvel"**](https://es.wikipedia.org/wiki/La_colecci%C3%B3n_definitiva_de_novelas_gr%C3%A1ficas_de_Marvel)
 
+![Applicación](./app/static/assets/app.PNG)
+
+
 
 Pre-requisitos
 --------------
