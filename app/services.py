@@ -12,6 +12,7 @@ class CollectionApi():
         for item in data:
             result.append(
                 {'id': item.id, 'title': item.title, 'image': item.image,
+                 'description': item.description,
                  'path_image': item.path_image,
                  'is_exist': item.is_exist})
         return result
